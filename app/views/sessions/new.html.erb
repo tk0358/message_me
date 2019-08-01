@@ -29,10 +29,12 @@
       <% end %>
     </div>
     <div class="middle aligned column">
-      <div class="ui teal disabled button">
-        <i class="signup icon"></i>
-        Sign Up
-      </div>
+      <%= link_to signup_path do %>
+        <div class="ui teal button">
+          <i class="signup icon"></i>
+          Sign Up
+        </div>
+      <% end %>
     </div>
   </div>
   <div class="ui vertical divider">
